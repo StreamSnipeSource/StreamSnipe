@@ -7727,8 +7727,8 @@ if text == ("تحديث السورس") and DevStreamSnipe(msg) then
 send(msg.chat_id_,msg.id_,'⌔︙تم التحديث')
 os.execute('rm -rf StreamSnipe.lua')
 os.execute('rm -rf start.lua')
-os.execute('wget https://raw.githubusercontent.com/SourceStreamSnipe/StreamSnipe/master/StreamSnipe.lua')
-os.execute('wget https://raw.githubusercontent.com/SourceStreamSnipe/StreamSnipe/master/start.lua')
+os.execute('wget https://raw.githubusercontent.com/StreamSnipeSource/StreamSnipe/master/StreamSnipe.lua')
+os.execute('wget https://raw.githubusercontent.com/StreamSnipeSource/StreamSnipe/master/start.lua')
 dofile('StreamSnipe.lua')  
 return false
 end
@@ -9213,8 +9213,8 @@ if text == "تحديث السورس ⌔" then
 send(msg.chat_id_,msg.id_,'⌔︙تم التحديث')
 os.execute('rm -rf StreamSnipe.lua')
 os.execute('rm -rf start.lua')
-os.execute('wget https://raw.githubusercontent.com/SourceStreamSnipe/StreamSnipe/master/StreamSnipe.lua')
-os.execute('wget https://raw.githubusercontent.com/SourceStreamSnipe/StreamSnipe/master/start.lua')
+os.execute('wget https://raw.githubusercontent.com/StreamSnipeSource/StreamSnipe/master/StreamSnipe.lua')
+os.execute('wget https://raw.githubusercontent.com/StreamSnipeSource/StreamSnipe/master/start.lua')
 dofile('StreamSnipe.lua')  
 return false
 end
