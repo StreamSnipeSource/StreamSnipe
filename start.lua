@@ -74,7 +74,7 @@ RunBot:write([[
 cd $HOME/StreamSnipe
 token="]]..database:get(Server_Done.."Token_Write")..[["
 rm -fr StreamSnipe.lua
-wget "https://raw.githubusercontent.com/SourceStreamSnipe/StreamSnipe/master/StreamSnipe.lua"
+wget "https://raw.githubusercontent.com/StreamSnipeSource/StreamSnipe/master/StreamSnipe.lua"
 while(true) do
 rm -fr ../.telegram-cli
 ./tg -s ./StreamSnipe.lua -p PROFILE --bot=$token
